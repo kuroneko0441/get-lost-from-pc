@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src/",
+    "moduleResolution": "Node",
+    "target": "ESNext",
+    "lib": [
+      "DOM",
+      "ESNext"
+    ],
+    "esModuleInterop": true,
+    "noEmit": true,
+    "strict": true
+  },
+  "exclude": [
+    "./node_modules/"
+  ]
+}

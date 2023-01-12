@@ -1,0 +1,17 @@
+{
+  "comments": false,
+  "sourceMaps": "inline",
+  "compact": true,
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "node": "10"
+        },
+        "modules": "commonjs"
+      }
+    ],
+    "@babel/preset-typescript"
+  ]
+}
